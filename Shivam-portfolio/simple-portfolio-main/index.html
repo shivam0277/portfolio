@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/uikit.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/uikit.js"></script>
+    <script src="js/uikit-icons.js"></script>
+
+    <title>Portfolio</title>
+</head>
+<body>
+<!-- Navigation Bar -->
+    <nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-visible@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+    
+    <div class="uk-navbar-left">
+        <a href="" class="uk-navbar-item uk-logo uk-light">Shivam Kumar</a>
+    </div>
+    <div class="uk-navbar-right">
+
+        <ul class="uk-navbar-nav uk-light">
+            <li><a class="uk-button-text uk-text-capitalize" href="#about" uk-scroll>About</a></li>
+            <li><a class="uk-button-text uk-text-capitalize" href="#projects" uk-scroll>Projects</a></li>
+            <li><a class="uk-button-text uk-text-capitalize" href="mailto:" uk-scroll>Contact</a></li>
+
+        </ul>
+
+    </div>
+</nav>
+<!-- Navigation Bar Ends  -->
+
+<!-- Navigation Bar Mobile -->
+<nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-hidden@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+    
+    <div class="uk-navbar-left">
+        <a href="" class="uk-navbar-item uk-logo uk-light">Shivam Kumar</a>
+    </div>
+    <div class="uk-navbar-right">
+
+        <ul class="uk-navbar-nav uk-light">
+            <li><button uk-toggle="target: #offcanvas-nav" type="button" uk-navbar-toggle-icon></button></li>
+
+        </ul>
+
+    </div>
+</nav>
+<!-- Change This -->
+<div id="offcanvas-nav" uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+
+        <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+            <li class="uk-active"><a href="#" uk-scroll>Home</a></li>
+            <li class="uk-active"><a href="#about" uk-scroll>About</a></li>
+            <li class="uk-active"><a href="#projects" uk-scroll>Projects</a></li>
+            <li class="uk-active"><a href="mailto:">Contact</a></li> <!--- change to ur email-->
+
+        </ul>
+
+
+
+
+    </div>
+</div>
+
+<!-- Navigation Bar Mobile Ends -->
+<!-- Home -->
+<section class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+    <h1 class="uk-margin-xlarge-left uk-light uk-text-left uk-margin-xlarge-right">I'm Shivam Kumar, a front-end web developer, <br>competitive coder , and open source enthusiast.</h1>
+    <a href="#about" class="uk-margin-xlarge-left uk-text-capitalize uk-button uk-button-secondary" uk-scroll>About Me</a>
+
+
+</section>
+
+<!-- Home Ends -->
+<br>
+
+
+<hr class="uk-margin-xlarge-top uk-margin-xlarge-left uk-margin-xlarge-right">
+
+<!-- About Me -->
+<section id="about" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+<h3 class="uk-margin-xlarge-left uk-light">About Me</h3>
+<!-- Change here to ur paragraph -->
+<p class="uk-margin-xlarge-left uk-margin-xlarge-right"> I am a pre-final year computer science enthusiast with a passion for competitive coding and open source development.<br><br>i have participated in numerous coding competitions on diffrent platforms consistently demonstrated their prowess by achieving high rankings and solving complex problems. This reflects their ability to think critically, apply algorithms efficiently, and write clean, optimized code. I have also participated in several open source events like GSSOC'23 and SSOC'23.</p>
+<a href="https://twitter.com/Shivam0277" class="uk-margin-xlarge-left uk-light uk-button-text" uk-icon="twitter"></a> &nbsp;<a href="https://www.linkedin.com/in/shivam-kumar-ba4206245/" class="uk-light uk-button-text" uk-icon="linkedin"></a> &nbsp;<a href="https://github.com/shivam0277" class="uk-button-text uk-light" uk-icon="github"></a> &nbsp;
+<!-- About Me Ends -->
+
+
+
+
+</section>
+
+<!-- Projects Section -->
+<hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+<section id="projects" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+<h3 class="uk-margin-xlarge-left uk-light">Projects</h3>
+<p class="uk-margin-xlarge-left">Projects that i've been working on</p>
+
+<div class="uk-margin-xlarge-left uk-margin-xlarge-right">
+    <!-- Change all of this to ur projects -->
+    <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+        <h4>Chatbot using django</h4>
+        <p>"ChatBot using Django" is an innovative project that combines the power of web development with natural language processing. This project utilizes the Django web framework to create an interactive chatbot system. Users can engage in real-time conversations with the chatbot on a website, making it a versatile tool for various applications, from customer support to information retrieval. By integrating Django's capabilities with a chatbot, this project aims to provide a user-friendly and efficient way to interact with AI-driven conversational agents, offering a seamless and engaging user experience.</p>
+        <a class="uk-button-text uk-text-decoration-none" href="https://github.com/shivam0277/Chatbot">
+            <span uk-icon="icon: link">
+            </span> Website Link </a>
+        </div>
+        <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+            <h4>Monument detection using Deep learning</h4>
+            <p>"Monument Detection using Deep Learning" is a cutting-edge project that harnesses the capabilities of deep learning techniques to automatically identify and recognize landmarks and monuments. By training a neural network on vast datasets of images, this project empowers computers to distinguish and categorize famous architectural and historical landmarks. Whether it's iconic buildings, statues, or natural wonders, this technology can revolutionize tourism, geolocation services, and cultural preservation efforts. With this project, we're paving the way for efficient monument recognition and enhanced user experiences in various applications, including travel and augmented reality.</p>
+            <a class="uk-button-text uk-text-decoration-none" href="https://github.com/shivam0277/Ciscoproblemstatement">
+                <span uk-icon="icon: link">
+                </span> Website Link </a>
+            </div></div>
+
+
+
+    <br>
+
+
+</section>
+<hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+</div>
+<!-- Projects Section Ends -->
+    
+</body>
+</html>
